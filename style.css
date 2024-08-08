@@ -1,0 +1,113 @@
+/* body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 10px;
+}
+
+input{
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#messages {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.employee button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.employee button:hover {
+    background-color: #e41e12;
+} */
+body{
+    background-color: black;
+    color: white;
+}
+#empolyeeForm{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+input{
+    background-color: black;
+    border: 1px solid white;
+    width: 221px;
+    height: 20px;
+}
+.field{
+    padding: 20px;
+}
+h1{
+    padding-left: 30px;
+}
+#messages{
+    padding-left: 30px;
+}
+#button{
+    margin-left: 30px;
+}
+.field1{
+    margin-top: 20px;
+    padding-left: 150px;
+}
+.field3{
+    margin-top: 20px;
+    padding-left: 170px;
+}
+.error {
+    color: red;
+}
+#employeeList{
+    padding-left: 100px;
+}
